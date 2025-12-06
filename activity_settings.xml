@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText android:id="@+id/etTopNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Top Number (e.g. 01905437211)" android:inputType="phone" />
+
+    <EditText android:id="@+id/etAdminPass" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Admin Password" android:inputType="textPassword" />
+
+    <ImageView android:id="@+id/ivPreview" android:layout_width="96dp" android:layout_height="96dp" android:src="@android:drawable/ic_menu_gallery" android:layout_marginTop="12dp" />
+
+    <Button android:id="@+id/btnPickIcon" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pick Icon" android:layout_marginTop="8dp" />
+
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save" android:layout_marginTop="12dp" />
+
+</LinearLayout>
